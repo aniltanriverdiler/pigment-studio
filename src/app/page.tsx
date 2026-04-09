@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button";
+import { HomeHeroSection } from "@/components/HomeHeroSection";
 
 export default function Home() {
   return (
-   <div>
-    <Button>Click Me</Button>
-   </div>
+    <main className="min-h-screen bg-background p-3 sm:p-4 lg:p-5">
+      <HomeHeroSection />
+    </main>
   );
 }

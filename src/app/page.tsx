@@ -3,6 +3,7 @@ import { GalleryShowcaseSection } from "@/components/GalleryShowcaseSection";
 import { HowItWorksSection } from "@/components/HowItWorksSection";
 import Testimonials from "@/components/Testimonials";
 import { Footer } from "@/components/Footer";
+import { PricingSection } from "@/components/PricingSection";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <HomeHeroSection />
       <GalleryShowcaseSection />
       <HowItWorksSection />
+      <PricingSection />
       <Testimonials />
       <Footer />
     </main>

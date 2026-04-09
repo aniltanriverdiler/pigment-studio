@@ -29,10 +29,10 @@ export const GALLERY_STATS = [
 ] as const;
 
 export const GALLERY_IMAGES = [
-  { src: "/gallery-1.png", alt: "Stylized rainy character portrait" },
-  { src: "/gallery-2.png", alt: "Stylized family gardening scene" },
-  { src: "/gallery-3.png", alt: "Stylized fantasy mushroom scene" },
-  { src: "/gallery-4.png", alt: "Stylized coffee making scene" },
+  { src: "/images/gallery-1.png", alt: "Stylized rainy character portrait" },
+  { src: "/images/gallery-2.png", alt: "Stylized family gardening scene" },
+  { src: "/images/gallery-3.png", alt: "Stylized fantasy mushroom scene" },
+  { src: "/images/gallery-4.png", alt: "Stylized coffee making scene" },
 ] as const;
 
 export const HERO_VIDEO_SRC =
